@@ -1,12 +1,24 @@
 page-home {
   ion-slide{
+    .container{
+      height: 100vh;
+      width: 100vw;
+      padding: 10px;
+      display: flex;
+      justify-content: center; /* align horizontal */
+      align-items: center;
+    }
     img{
       width: auto;
       height: auto;
-      margin: auto;
-      max-height: 100%;
-      max-width: 100%;
     }
+  }
+
+  @mixin slowmo {
+    -webkit-transition: background-color 3s ease-out;
+    -moz-transition: background-color 3s ease-out;
+    -o-transition: background-color 3s ease-out;
+    transition: background-color 3s ease-out;
   }
   .left{
     height: 100vh;
@@ -37,65 +49,38 @@ page-home {
 
   .white{
     background-color: white !important;
-    -webkit-transition: background-color 3s ease-out;
-    -moz-transition: background-color 3s ease-out;
-    -o-transition: background-color 3s ease-out;
-    transition: background-color 3s ease-out;
+    @include slowmo;
   }
   .red{
     background-color: red !important;
-    -webkit-transition: background-color 3s ease-out;
-    -moz-transition: background-color 3s ease-out;
-    -o-transition: background-color 3s ease-out;
-    transition: background-color 3s ease-out;
+    @include slowmo;
   }
   .blue{
     background-color: lightblue !important;
-    -webkit-transition: background-color 3s ease-out;
-    -moz-transition: background-color 3s ease-out;
-    -o-transition: background-color 3s ease-out;
-    transition: background-color 3s ease-out;
+    @include slowmo;
   }
   .green{
     background-color: lightgreen !important;
-    -webkit-transition: background-color 3s ease-out;
-    -moz-transition: background-color 3s ease-out;
-    -o-transition: background-color 3s ease-out;
-    transition: background-color 3s ease-out;
+    @include slowmo;
   }
   .yellow{
     background-color: yellow !important;
-    -webkit-transition: background-color 3s ease-out;
-    -moz-transition: background-color 3s ease-out;
-    -o-transition: background-color 3s ease-out;
-    transition: background-color 3s ease-out;
+    @include slowmo;
   }
   .orange{
     background-color: orange !important;
-    -webkit-transition: background-color 3s ease-out;
-    -moz-transition: background-color 3s ease-out;
-    -o-transition: background-color 3s ease-out;
-    transition: background-color 3s ease-out;
+    @include slowmo;
   }
   .cyan{
     background-color: cyan !important;
-    -webkit-transition: background-color 3s ease-out;
-    -moz-transition: background-color 3s ease-out;
-    -o-transition: background-color 3s ease-out;
-    transition: background-color 3s ease-out;
+    @include slowmo;
   }
   .fuchsia{
     background-color: fuchsia !important;
-    -webkit-transition: background-color 3s ease-out;
-    -moz-transition: background-color 3s ease-out;
-    -o-transition: background-color 3s ease-out;
-    transition: background-color 3s ease-out;
+    @include slowmo;
   }
   .indigo{
     background-color: lightpink !important;
-    -webkit-transition: background-color 3s ease-out;
-    -moz-transition: background-color 3s ease-out;
-    -o-transition: background-color 3s ease-out;
-    transition: background-color 3s ease-out;
+    @include slowmo;
   }
 }
