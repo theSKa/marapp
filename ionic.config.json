@@ -1,0 +1,8 @@
+{
+  "name": "marapp",
+  "app_id": "b3b532e4",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
