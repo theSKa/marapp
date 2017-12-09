@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1779px" height="1411px" viewBox="0 0 1779 1411" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4a</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="167" height="1778.07224"></rect>
+        <rect id="path-2" x="328" y="0" width="167" height="1778.07224"></rect>
+        <rect id="path-3" x="633" y="0" width="167" height="1778.07224"></rect>
+        <rect id="path-4" x="938" y="0" width="167" height="1778.07224"></rect>
+        <rect id="path-5" x="1243" y="0" width="167" height="1778.07224"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4a" transform="translate(890.252214, 705.427761) rotate(-90.000000) translate(-890.252214, -705.427761) translate(185.252214, -184.072239)">
+            <g id="Rectangle-2">
+                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="166" height="1777.07224"></rect>
+            </g>
+            <g id="Rectangle-2">
+                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#979797" stroke-width="1" x="328.5" y="0.5" width="166" height="1777.07224"></rect>
+            </g>
+            <g id="Rectangle-2">
+                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#979797" stroke-width="1" x="633.5" y="0.5" width="166" height="1777.07224"></rect>
+            </g>
+            <g id="Rectangle-2">
+                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <rect stroke="#979797" stroke-width="1" x="938.5" y="0.5" width="166" height="1777.07224"></rect>
+            </g>
+            <g id="Rectangle-2">
+                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <rect stroke="#979797" stroke-width="1" x="1243.5" y="0.5" width="166" height="1777.07224"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
