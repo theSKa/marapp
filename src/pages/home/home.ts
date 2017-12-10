@@ -27,7 +27,7 @@ export class HomePage {
     for (let i : number = 1; i < 21; i++) {
       this
         .images
-        .push(`/assets/imgs/${i}.png`);
+        .push(`assets/imgs/${i}.png`);
     }
     this.backgroundColor = this.backgroundColors[this.backgroundColorIndex];
   }
